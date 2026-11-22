@@ -160,7 +160,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ### 5. Run the Autonomous Robot Controller
 
-1. Update `ESP32_IP` in `cl11fix.py` to match your ESP32's IP.
+1. Update `ESP32_IP` in `MainFile.py` to match your ESP32's IP.
 2. Start the vision controller:
    ```bash
    python MainFile.py
