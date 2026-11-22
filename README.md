@@ -163,7 +163,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 1. Update `ESP32_IP` in `cl11fix.py` to match your ESP32's IP.
 2. Start the vision controller:
    ```bash
-   python cl11fix.py
+   python MainFile.py
    ```
 
 ---
