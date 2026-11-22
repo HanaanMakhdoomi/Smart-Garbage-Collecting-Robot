@@ -188,11 +188,6 @@ When the OpenCV window is focused:
 - **Width Method**: Update `KNOWN_OBJECT_WIDTH_CM`, `CALIBRATION_DISTANCE_CM`, and `CALIBRATION_WIDTH_PX` in `cl11fix.py`.
 - **Bottom-Edge Ground Projection**: Set `USE_BOTTOM_EDGE_DISTANCE = True` and populate `Y2_CALIBRATION` with bottom-edge pixel coordinates ($y_2$) vs. measured distances (cm).
 
-### Speed Calibration
-Press `T` while running `cl11fix.py` to drive forward for 2.0 seconds. Measure the distance driven in cm and set:
-$$\text{CAR\_SPEED\_CM\_PER\_S} = \frac{\text{Distance Measured (cm)}}{2.0}$$
-
----
 
 ## 🛡️ License
 
